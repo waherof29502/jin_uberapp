@@ -6,7 +6,7 @@ import { Provider } from 'react-redux';
 
 export default function App() {
   return (
-    <Provider>
+    <Provider store={store}>
       <View style={styles.container}>
         <Text>Hello World</Text>
         <StatusBar style='auto' />
